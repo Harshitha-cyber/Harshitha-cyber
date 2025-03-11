@@ -1,0 +1,11 @@
+print("Hello, " + name + "!")
+    else:
+      def greet(name):
+    if name:
+      print("Hello, World!")
+
+# Calling the function with a name
+greet("Alice")
+
+# Calling the function without a name
+greet("")
