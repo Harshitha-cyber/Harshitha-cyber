@@ -1,0 +1,14 @@
+def is_perfect_number(n):
+    if n < 2:
+        return False  # There are no perfect numbers below 2
+    
+    sum_of_divisors = sum(i for i in range(1, n) if n % i == 0)
+    
+    return sum_of_divisors == n
+
+# Example usage:
+num = int(input("Enter a number: "))
+if is_perfect_number(num):
+    print(f"{num} is a perfect number.")
+else:
+    print(f"{num} is not a perfect number.")
