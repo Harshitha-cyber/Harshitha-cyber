@@ -1,0 +1,5 @@
+#formatted string
+a=7
+b=6
+c=5
+print(f"first number is{a},second number is {b},third number is {c}")
