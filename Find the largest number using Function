@@ -1,0 +1,11 @@
+def large(a,b,c): 
+ a=int(input("enter value of a"))
+ b=int(input("enter value of b"))
+ c=int(input("enter valur of c"))
+ if a>b and a>c:
+  print("a is larsgest")
+ elif b>a and b>c:
+  print("b is largest")
+ else:
+  print("c is largest")
+large(1,3,5)
