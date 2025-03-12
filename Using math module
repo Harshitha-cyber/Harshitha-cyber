@@ -1,0 +1,19 @@
+import math
+
+def math_operations(n):
+    square = n ** 2
+    square_root = math.sqrt(n)
+    factorial = math.factorial(n) if n >= 0 and isinstance(n, int) else "Undefined for non-integers/negative numbers"
+    sine_value = math.sin(math.radians(n))  
+
+    return {
+        "Square": square,
+        "Square Root": square_root,
+        "Factorial": factorial,
+        "Sine (in radians)": sine_value
+    }
+
+number = 5
+results = math_operations(number)
+for key, value in results.items():
+    print(f"{key}: {value}")
