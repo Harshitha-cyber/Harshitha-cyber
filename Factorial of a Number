@@ -1,0 +1,8 @@
+def num(a):
+  fact=1
+  factlist = []
+  for i in range (1,a+1):
+   fact=i*fact
+   factlist.append(fact)
+  print(factlist)
+num(3)
