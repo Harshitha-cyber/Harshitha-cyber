@@ -1,0 +1,6 @@
+student ={
+    "name":"harshi",
+    "age":18,
+    "grade":"a"
+}
+print(student)
