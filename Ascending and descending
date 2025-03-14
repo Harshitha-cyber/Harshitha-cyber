@@ -1,0 +1,5 @@
+y=[3,5,8,0,2]
+y.sort()
+print(y)
+y.reverse()
+print(y)
