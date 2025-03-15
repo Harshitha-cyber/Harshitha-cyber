@@ -1,0 +1,13 @@
+#multiple inheritance
+class cars():
+  def thar (self):
+    print("thar is cost of 2200000")
+
+class bikes():
+  def bullet(self):
+    print("bullet is cost of 250000")
+
+Car=cars()
+Car.thar()
+Car=bikes()
+Car.bullet()
