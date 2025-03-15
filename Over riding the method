@@ -1,0 +1,11 @@
+class cyber():
+  def love(self):
+    print("dhanu loves guru")
+class security():
+  def love(self):
+    print("moni loves chandu")
+class ec():
+  def love(self):
+    print("harshi loves no one")
+hate=security()
+hate.love()
