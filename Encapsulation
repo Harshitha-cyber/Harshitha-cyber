@@ -1,0 +1,10 @@
+#encapuslation
+class sushma:
+  def __init__(self):
+    self.oub = "harshitha"
+    self.__web = "dhanu"
+  def yashas_web(self):
+    print(self.__web)
+moni = sushma()
+print(moni.oub)
+moni.yashas_web()
