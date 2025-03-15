@@ -1,0 +1,11 @@
+#inheritance
+class harshi:
+  def dhanu(self):
+    print("i am studying")
+
+class kavya(harshi):
+    def dhanu(self):
+     print("i am stiudying in BE")
+
+moni1=kavya()
+moni1.dhanu()
